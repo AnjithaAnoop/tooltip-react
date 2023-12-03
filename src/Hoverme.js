@@ -54,7 +54,7 @@ function Hoverme() {
                  }
 
               }}
-               //fetching position from which it was hovered and passing it as props.
+                //fetching position from which it was hovered and passing it as props.
              onMouseOver={handleMouseOver}
              onMouseOut={handleMouseOut}>Hover over me!
              {isHovering && (
@@ -78,7 +78,7 @@ function Hoverme() {
         padding:'10px'
     },
     container:{
-        margin:'10%'
+        margin:'20% 40%'
     }
 
 }
